@@ -1,63 +1,128 @@
-# Let's Build your Portfolio 
-<img src="./portfolio.png">
+# 🌟 Welcome To (সহজ সরল সিম্পল) Assignment - 5
 
-# Image generation prompts
-# Professional Studio Portrait Prompts
+# **📅 Deadline For 60 marks:** 9th March, 2026 (11:59 pm ⏱️)  
+#  📅 No Deadline For 50 marks  
+# **📅 Deadline For 30 marks:** Any time after 9th March.
 
-These prompts are designed to generate ultra-realistic corporate-style studio portraits
+---
+
+# Assignment-05: GitHub Issues Tracker
 
 
+### **API Endpoints:**
+###  **All Issues:** 
+  - https://phi-lab-server.vercel.app/api/v1/lab/issues 
 
 
-## Prompt 1: Professional Man (Corporate Headshot)
-```bash
-Create a professional studio portrait of a smiling, smart, and confident man, using the reference image.
-Preserve the exact face, facial structure, skin tone, hairstyle, beard, and overall identity from the original image. Do not alter identity.
+###  **Single Issue:**
+   - https://phi-lab-server.vercel.app/api/v1/lab/issue/{id}
 
-Pose: standing straight with a confident posture, arms crossed — left forearm horizontal across the torso, right arm placed over it, right hand tucked under the left bicep.
+   - Example: https://phi-lab-server.vercel.app/api/v1/lab/issue/33
 
-Outfit: navy blue blazer, light blue formal shirt, no tie.
 
-Lighting: soft professional studio lighting, evenly lit face with gentle natural shadows for depth.
+###  **Search Issue:** https://phi-lab-server.vercel.app/api/v1/lab/issues/search?q={searchText}
 
-Background: solid black, clean and distraction-free.
+   - Example:  https://phi-lab-server.vercel.app/api/v1/lab/issues/search?q=notifications
 
-Camera & Style: eye-level angle, mid-torso to head framing, corporate headshot, ultra-realistic, DSLR photography, sharp focus, 4K quality.
 
+---
+
+## 📝 Main Requirements
+
+## 🎨 Design Part
+
+## Login Page
+- Create a login page containing a logo, title, and sub-title
+- Below that, there will be 2 inputs, a sign-in button, and a demo credential to sign in. Follow the Figma for this page 
+- Styled as per Figma
+
+## Main Page: 
+
+### Navbar: 
+
+- Navbar with website logo/name on the left
+- Search input and button on the right
+
+### Tab Section like Figma: 
+
+- 3 tab ( All, Open, Closed) at the top of this section.(**All**, **Open**, **Closed**)
+
+- Below the tab, there will be an icon, the issue count, some text on the left, and an open and closed marker on the right
+
+- Responsiveness: The website should be responsive for mobile devices. It is totally up to you. 
+
+
+--- 
+
+
+## ⚙️ Functionalities
+- In login page, there will be default admin credentials (username, password). You need to sign in using these credentials.
+
+- Load all issues and display as per Figma
+
+- On clicking on an open or closed tab, it will load the issues data of the related tab and show it in a display-like card in a 4-column layout like Figma. By default, it will show all data 
+
+- Each card shows:
+  - Title
+  - Description
+  - Status 
+  - Author
+  - Priority
+  - Label
+  - CreatedAt
+- Clicking on an issue  card will open a modal and show all the information about that Issue. 
+
+### 🚀 Challenges
+
+
+- Show the card Top border based on their category(open, closed), open card will have Green Boder, closed card will have a purple border on top. 
+
+- Loading spinner on data load
+
+- Show active button on changing category names
+
+- Implement Search Functionality and 8 meaningful github commit.  
+
+- Create a readme file and answer this question on your own. Don’t copy-paste from Google or any AI chatbot. 
+    - 1️⃣ What is the difference between var, let, and const?
+    - 2️⃣ What is the spread operator (...)?
+    - 3️⃣ What is the difference between map(), filter(), and forEach()?
+    - 4️⃣ What is an arrow function?
+    - 5️⃣ What are template literals?
+
+
+---
+
+## 🛠️ Technology Stack
+
+- **HTML**
+- **CSS** (Vanilla/Tailwind/DaisyUI)
+- **JavaScript** (Vanilla)
+
+---
+
+## 🔑 Demo Credentials
+
+```text
+Username: admin
+Password: admin123
 ```
 
-## Prompt 2: Professional Woman (Corporate Headshot)
-```bash
-Create a professional studio portrait of a smiling, smart, and confident woman, using the reference image.
-Preserve the exact face, facial structure, skin tone, hairstyle, and overall identity from the original image. Do not alter identity.
 
-Pose: standing straight with a confident posture, arms crossed — left forearm horizontal across the torso, right arm placed over it, right hand tucked under the left bicep.
+---
 
-Outfit: navy blue blazer, light blue formal shirt, no tie.
-
-Lighting: soft professional studio lighting, evenly lit face with gentle natural shadows for depth.
-
-Background: solid black, clean and distraction-free.
-
-Camera & Style: eye-level angle, mid-torso to head framing, corporate headshot, ultra-realistic, DSLR photography, sharp focus, 4K quality.
-
-```
-
-## Prompt 3: Muslim Woman (Navy Blue Burkha)
-```bash
-Create a professional studio portrait of a smiling, smart, and confident Muslim woman, using the reference image.
-Preserve the exact face, facial structure, skin tone, eye shape, and overall identity from the original image. Do not alter identity.
-
-Attire: modest navy blue burkha (abaya) with a matching navy blue hijab, neatly draped, elegant and professional. Face clearly visible.
-
-Pose: standing straight with a confident posture, arms crossed — left forearm horizontal across the torso, right arm placed over it, right hand tucked under the left bicep.
-
-Lighting: soft professional studio lighting, evenly lit face with gentle natural shadows for depth.
-
-Background: solid black, clean and distraction-free.
-
-Camera & Style: eye-level angle, mid-torso to head framing, corporate headshot, ultra-realistic, DSLR photography, sharp focus, 4K quality.
-```
+### Optional: 
+ - No need to show status: Open, Closed styles On modals. 
+ - No Need to show icon on labels 
+ - No need to apply styles on Priority 
+--- 
 
 
-# Github-Issue-Tracker
+## 📤 What to submit
+
+- **GitHub Repository Link:**
+- **Live Site Link:**
+
+---
+
+
