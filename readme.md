@@ -18,5 +18,5 @@
     Ans: An arrow function is a shorter way to write a function in js
 
 5️⃣ What are template literals?
-    Ans: Template literals are way to write strings using bacticks
+    Ans: Template literals are way to write strings using bacticks.
 
